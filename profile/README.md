@@ -16,6 +16,7 @@ One repo per benchmark. The site only renders what the runners produce.
 - [js-bundlers](https://github.com/warefeats/js-bundlers): Vite vs esbuild vs tsup, cold production builds of zod's source.
 - [kv-stores](https://github.com/warefeats/kv-stores): Redis vs Valkey vs Dragonfly under memtier. The first cloud rig: two Graviton3 boxes in a placement group.
 - [vector-tile-servers](https://github.com/warefeats/vector-tile-servers): Martin vs Tegola vs BBOX vs pg_tileserv vs TiPg vs ldproxy, all cutting tiles from the same PostGIS. The 2024 Rechsteiner thesis re-run on current releases and a Berlin OSM extract anyone can download.
+- [web-map-renderers](https://github.com/warefeats/web-map-renderers): Mapbox GL JS 1.13 vs MapLibre GL JS 5 vs 6, the fork measured against its origin on the same self-hosted Berlin tiles in one pinned Chromium. The first Windows rig: a Ryzen mini PC's integrated Radeon, driven over ssh.
 - [workflows](https://github.com/warefeats/workflows): the shared CI workflow the rest of these call.
 
 ## Rerun one yourself
