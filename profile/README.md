@@ -10,9 +10,12 @@ Read the results at [warefeats.com](https://warefeats.com).
 
 One repo per benchmark. The site only renders what the runners produce.
 
-- [warefeats.com](https://github.com/warefeats/warefeats.com): the publication site and its catalog (`web/public/data/benchmarks.json`). A new catalog entry is a new page.
+- [warefeats.com](https://github.com/warefeats/warefeats.com): the publication site. Each runner is pinned by commit in `web/data/registry.json`; a new pin is a new page.
 - [js-linter-tools](https://github.com/warefeats/js-linter-tools): ESLint vs Biome, run against ESLint's own source.
 - [http-caching-proxies](https://github.com/warefeats/http-caching-proxies): Varnish vs Vinyl vs NGINX serving HLS. Docker Compose, three topologies.
+- [js-bundlers](https://github.com/warefeats/js-bundlers): Vite vs esbuild vs tsup, cold production builds of zod's source.
+- [kv-stores](https://github.com/warefeats/kv-stores): Redis vs Valkey vs Dragonfly under memtier. The first cloud rig: two Graviton3 boxes in a placement group.
+- [vector-tile-servers](https://github.com/warefeats/vector-tile-servers): Martin vs Tegola vs BBOX vs pg_tileserv vs TiPg vs ldproxy, all cutting tiles from the same PostGIS. The 2024 Rechsteiner thesis re-run on current releases and a Berlin OSM extract anyone can download.
 - [workflows](https://github.com/warefeats/workflows): the shared CI workflow the rest of these call.
 
 ## Rerun one yourself
