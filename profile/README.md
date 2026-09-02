@@ -2,7 +2,7 @@
 
 Benchmarks for developer tools, with the runs attached.
 
-Most tool comparisons are written by someone selling one of the tools. The rest quote a number with no machine, no versions, and no workload behind it. So I run them myself, on my own hardware, with a runner you can read. Every result page names the rig, pins the versions, and publishes every pass. No sponsor. No affiliation with any tool on the site.
+Most tool comparisons are written by someone selling one of the tools. The rest quote a number with no machine, no versions, and no workload behind it. So I run them myself, on my own hardware, with a runner you can read. Every result page names the rig, pins the versions, and publishes every pass. No sponsor. Nobody on the site pays me. Where I've committed code to a project under test, the page says so up top.
 
 Read the results at [warefeats.com](https://warefeats.com).
 
